@@ -9,6 +9,7 @@
         <module name="akka-learn" />
         <module name="java-learn" />
         <module name="scala-learn" />
+        <module name="spark-learn" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -16,6 +17,7 @@
       <module name="java-learn" target="1.5" />
       <module name="rocky-learn" target="1.5" />
       <module name="scala-learn" target="1.5" />
+      <module name="spark-learn" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>

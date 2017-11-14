@@ -12,6 +12,7 @@
         <module>scala-learn</module>
         <module>akka-learn</module>
         <module>java-learn</module>
+        <module>spark-learn</module>
     </modules>
 
     <properties>
@@ -23,7 +24,9 @@
        
         <dependency>
             <groupId>log4j</groupId>
+
             <artifactId>log4j</artifactId>
+
             <version>1.2.12</version>
         </dependency>
         <dependency>
@@ -35,6 +38,7 @@
         <dependency>
             <groupId>com.typesafe.akka</groupId>
             <artifactId>akka-remote_2.10</artifactId>
+
             <version>${akka.version}</version>
         </dependency>
 
@@ -46,6 +50,7 @@
         <dependency>
             <groupId>org.scala-lang</groupId>
             <artifactId>scala-compiler</artifactId>
+
             <version>${scala.version}</version>
         </dependency>
         <dependency>
