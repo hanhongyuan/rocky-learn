@@ -10,7 +10,14 @@
     <version>1.0-SNAPSHOT</version>
     <modules>
         <module>scala-learn</module>
+        <module>akka-learn</module>
     </modules>
+
+    <properties>
+        <encoding>UTF-8</encoding>
+        <scala.version>2.10.4</scala.version>
+        <akka.version>2.3.14</akka.version>
+    </properties>
     <dependencies>
        
         <dependency>
@@ -18,7 +25,33 @@
             <artifactId>log4j</artifactId>
             <version>1.2.12</version>
         </dependency>
+        <dependency>
+            <groupId>com.typesafe.akka</groupId>
+            <artifactId>akka-actor_2.10</artifactId>
+            <version>${akka.version}</version>
+        </dependency>
 
+        <dependency>
+            <groupId>com.typesafe.akka</groupId>
+            <artifactId>akka-remote_2.10</artifactId>
+            <version>${akka.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.scala-lang</groupId>
+            <artifactId>scala-library</artifactId>
+            <version>${scala.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.scala-lang</groupId>
+            <artifactId>scala-compiler</artifactId>
+            <version>${scala.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.scala-lang</groupId>
+            <artifactId>scala-reflect</artifactId>
+            <version>${scala.version}</version>
+        </dependency>
     </dependencies>
 
 </project>

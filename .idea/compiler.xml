@@ -6,10 +6,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="akka-learn" />
         <module name="scala-learn" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="akka-learn" target="1.5" />
       <module name="rocky-learn" target="1.5" />
       <module name="scala-learn" target="1.5" />
     </bytecodeTargetLevel>

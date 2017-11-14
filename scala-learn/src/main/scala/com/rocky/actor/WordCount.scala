@@ -59,7 +59,7 @@ object WordCount {
 
     def main(args: Array[String]): Unit = {
 
-        val files = Array[String]("f://words.txt", "f://words.log")
+        val files = Array[String]("data/words.log", "data/words.txt")
 
         //为每个文件启动一个线程，并开启mapTask作业，并将异步的Future放到集合
         for (f <- files) {
