@@ -18,7 +18,7 @@ Akka 是一个用 Scala 编写的库，用于简化编写容错的、高可伸�
 ## 四、通用RPC设计逻辑
 通用的RPC框架见下图：
 
-![](../../image/rpc_framework.png)
+![](image/rpc_framework.png)
 
 ## 五、Akka Actor事件模型
 
