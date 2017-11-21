@@ -13,12 +13,14 @@
         <module>akka-learn</module>
         <module>java-learn</module>
         <module>spark-learn</module>
+        <module>zookeeper-learn</module>
     </modules>
 
     <properties>
         <encoding>UTF-8</encoding>
         <scala.version>2.10.4</scala.version>
         <akka.version>2.3.14</akka.version>
+        <zookeeper.version>3.4.10</zookeeper.version>
     </properties>
     <dependencies>
        
@@ -29,6 +31,13 @@
 
             <version>1.2.12</version>
         </dependency>
+        <!-- https://mvnrepository.com/artifact/org.apache.zookeeper/zookeeper -->
+        <dependency>
+            <groupId>org.apache.zookeeper</groupId>
+            <artifactId>zookeeper</artifactId>
+            <version>${zookeeper.version}</version>
+        </dependency>
+
         <dependency>
             <groupId>com.typesafe.akka</groupId>
             <artifactId>akka-actor_2.10</artifactId>
