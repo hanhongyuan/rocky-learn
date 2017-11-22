@@ -23,13 +23,19 @@ public class ClientOps
    public void init() throws IOException
    {
       Configuration conf = new Configuration();
+      conf.set("fs.defaultFS", "hdfs://node200:9000");
       fs = FileSystem.get(conf);
    }
 
    @Test
    public void testUpload() throws IOException
    {
-      fs.copyFromLocalFile(new Path("test_data/words.log"), new Path("/test/"));
+      fs.copyFromLocalFile(new Path("/home/rocky/myself/rocky-learn/test_data/words.log"), new Path("/test/"));
+      fs.close();
+   }
+   @Test
+   public void testDownload() throws IOException {
+      fs.copyToLocalFile(new Path("/test/test.txt"), new Path("/home/rocky/myself/rocky-learn/test_data/"));
       fs.close();
    }
 }
