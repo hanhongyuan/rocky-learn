@@ -14,6 +14,7 @@
         <module>java-learn</module>
         <module>spark-learn</module>
         <module>zookeeper-learn</module>
+        <module>hadoop-learn</module>
     </modules>
 
     <properties>
@@ -21,15 +22,21 @@
         <scala.version>2.10.4</scala.version>
         <akka.version>2.3.14</akka.version>
         <zookeeper.version>3.4.10</zookeeper.version>
+        <hadoop.version>2.6.4</hadoop.version>
+        <log4j.version>1.2.12</log4j.version>
     </properties>
     <dependencies>
-       
+        <!-- https://mvnrepository.com/artifact/org.apache.hadoop/hadoop-client -->
+        <dependency>
+            <groupId>org.apache.hadoop</groupId>
+            <artifactId>hadoop-client</artifactId>
+            <version>${hadoop.version}</version>
+        </dependency>
+
         <dependency>
             <groupId>log4j</groupId>
-
             <artifactId>log4j</artifactId>
-
-            <version>1.2.12</version>
+            <version>${log4j.version}</version>
         </dependency>
         <!-- https://mvnrepository.com/artifact/org.apache.zookeeper/zookeeper -->
         <dependency>
