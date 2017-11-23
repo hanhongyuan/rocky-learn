@@ -7,13 +7,21 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="akka-learn" />
+        <module name="hadoop-learn" />
+        <module name="java-learn" />
         <module name="scala-learn" />
+        <module name="spark-learn" />
+        <module name="zookeeper-learn" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="akka-learn" target="1.5" />
+      <module name="hadoop-learn" target="1.5" />
+      <module name="java-learn" target="1.5" />
       <module name="rocky-learn" target="1.5" />
       <module name="scala-learn" target="1.5" />
+      <module name="spark-learn" target="1.5" />
+      <module name="zookeeper-learn" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>

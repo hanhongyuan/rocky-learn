@@ -3,8 +3,12 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/akka-learn/akka-learn.iml" filepath="$PROJECT_DIR$/akka-learn/akka-learn.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hadoop-learn/hadoop-learn.iml" filepath="$PROJECT_DIR$/hadoop-learn/hadoop-learn.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java-learn/java-learn.iml" filepath="$PROJECT_DIR$/java-learn/java-learn.iml" />
       <module fileurl="file://$PROJECT_DIR$/rocky-learn.iml" filepath="$PROJECT_DIR$/rocky-learn.iml" />
       <module fileurl="file://$PROJECT_DIR$/scala-learn/scala-learn.iml" filepath="$PROJECT_DIR$/scala-learn/scala-learn.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spark-learn/spark-learn.iml" filepath="$PROJECT_DIR$/spark-learn/spark-learn.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zookeeper-learn/zookeeper-learn.iml" filepath="$PROJECT_DIR$/zookeeper-learn/zookeeper-learn.iml" />
     </modules>
   </component>
 </project>
