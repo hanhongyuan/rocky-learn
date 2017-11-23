@@ -15,6 +15,7 @@
         <module>spark-learn</module>
         <module>zookeeper-learn</module>
         <module>hadoop-learn</module>
+        <module>jvm-learn</module>
     </modules>
 
     <properties>
