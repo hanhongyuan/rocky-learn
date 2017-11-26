@@ -12,6 +12,7 @@
         <module name="jvm-learn" />
         <module name="scala-learn" />
         <module name="spark-learn" />
+        <module name="sql-learn" />
         <module name="zookeeper-learn" />
       </profile>
     </annotationProcessing>
@@ -23,6 +24,7 @@
       <module name="rocky-learn" target="1.5" />
       <module name="scala-learn" target="1.5" />
       <module name="spark-learn" target="1.5" />
+      <module name="sql-learn" target="1.5" />
       <module name="zookeeper-learn" target="1.5" />
     </bytecodeTargetLevel>
   </component>

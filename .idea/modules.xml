@@ -9,6 +9,7 @@
       <module fileurl="file://$PROJECT_DIR$/rocky-learn.iml" filepath="$PROJECT_DIR$/rocky-learn.iml" />
       <module fileurl="file://$PROJECT_DIR$/scala-learn/scala-learn.iml" filepath="$PROJECT_DIR$/scala-learn/scala-learn.iml" />
       <module fileurl="file://$PROJECT_DIR$/spark-learn/spark-learn.iml" filepath="$PROJECT_DIR$/spark-learn/spark-learn.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sql-learn/sql-learn.iml" filepath="$PROJECT_DIR$/sql-learn/sql-learn.iml" />
       <module fileurl="file://$PROJECT_DIR$/zookeeper-learn/zookeeper-learn.iml" filepath="$PROJECT_DIR$/zookeeper-learn/zookeeper-learn.iml" />
     </modules>
   </component>

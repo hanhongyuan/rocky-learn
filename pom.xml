@@ -16,6 +16,7 @@
         <module>zookeeper-learn</module>
         <module>hadoop-learn</module>
         <module>jvm-learn</module>
+        <module>sql-learn</module>
     </modules>
 <build>
     <plugins>

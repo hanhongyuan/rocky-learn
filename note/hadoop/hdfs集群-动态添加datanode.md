@@ -37,5 +37,5 @@
      ````                  
 8. 启动新节点的nodemanager进程
      ````
-        yarn-daemon.sh start nodemanager
+        1
      ````                   
