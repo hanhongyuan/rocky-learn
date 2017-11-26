@@ -14,9 +14,9 @@ import java.io.IOException;
  * Date: 2017/11/22
  * Time: 21:33
  * To change this template use File | Settings | File Templates.
- * Description:
+ * Description:该类中通过Hadoop命令的Java接口进行文件上传和下载
  */
-public class ClientOps
+public class ClientCMDOps
 {
       FileSystem fs = null;
    @Before
