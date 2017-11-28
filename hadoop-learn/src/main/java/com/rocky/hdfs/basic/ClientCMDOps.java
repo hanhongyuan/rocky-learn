@@ -30,7 +30,7 @@ public class ClientCMDOps
    @Test
    public void testUpload() throws IOException
    {
-      fs.copyFromLocalFile(new Path("/home/rocky/myself/rocky-learn/test_data/words.log"), new Path("/test/"));
+      fs.copyFromLocalFile(new Path(""), new Path("/test/"));
       fs.close();
    }
    @Test

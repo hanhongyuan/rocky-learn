@@ -2,7 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1c2f6514-ea35-4dd0-a045-353903eddbe2" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/hadoop/Hadoop伪分布式配置文件/core-site.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/hadoop/Hadoop伪分布式配置文件/hadoop-env.sh" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/hadoop/Hadoop伪分布式配置文件/mapred-site.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/hadoop/Hadoop伪分布式配置文件/yarn-site.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hadoop-learn/src/main/java/com/rocky/mr/flowsum/FlowBean.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hadoop-learn/src/main/java/com/rocky/mr/flowsum/FlowCountDriver.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hadoop-learn/src/main/java/com/rocky/mr/flowsum/FlowCountMapper.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hadoop-learn/src/main/java/com/rocky/mr/flowsum/FlowCountReducer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hadoop-learn/src/main/java/com/rocky/mr/wordcount/WordCountDriver.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hadoop-learn/src/main/java/com/rocky/mr/wordcount/WordCountMapper.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hadoop-learn/src/main/java/com/rocky/mr/wordcount/WordCountReducer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hadoop-learn/src/main/resources/hadoop-cluster.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hadoop-learn/src/main/resources/hadoop-localhost.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hadoop-learn/src/main/resources/log4j.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/note/hadoop/mapreduce-job并行度.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/note/hadoop/mapreduce简介与MR程序执行流程.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/note/hadoop/mapreduce编程规范.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/note/远程调试.md" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/hadoop-learn/src/main/resources/words.log" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hadoop-learn/src/main/java/com/rocky/hdfs/basic/ClientCMDOps.java" afterPath="$PROJECT_DIR$/hadoop-learn/src/main/java/com/rocky/hdfs/basic/ClientCMDOps.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/note/hadoop/Hadoop集群搭建.md" afterPath="$PROJECT_DIR$/note/hadoop/Hadoop集群搭建.md" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -304,7 +325,10 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
       <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -322,6 +346,20 @@
               <item name="rocky-learn" type="462c0819:PsiDirectoryNode" />
               <item name="data" type="462c0819:PsiDirectoryNode" />
               <item name="hadoop" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rocky-learn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rocky-learn" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+              <item name="hadoop" type="462c0819:PsiDirectoryNode" />
+              <item name="Hadoop伪分布式配置文件" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rocky-learn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rocky-learn" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+              <item name="hadoop" type="462c0819:PsiDirectoryNode" />
+              <item name="hadoop完全分布式配置文件" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="rocky-learn" type="b2602c69:ProjectViewProjectNode" />
@@ -384,9 +422,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -693,6 +728,7 @@
       <workItem from="1511655873966" duration="29000" />
       <workItem from="1511771400682" duration="2684000" />
       <workItem from="1511830799992" duration="34000" />
+      <workItem from="1511867648396" duration="129000" />
     </task>
     <task id="LOCAL-00001" summary="add java-learn:com.rocky.concurrent">
       <created>1510673101811</created>
@@ -800,7 +836,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="98325000" />
+    <option name="totallyTimeSpent" value="98454000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -822,19 +858,19 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.54545456" sideWeight="0.5031746" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23875624" sideWeight="0.48407644" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2820513" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2820513" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.54647434" sideWeight="0.4968254" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22487506" sideWeight="0.49438202" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22709605" sideWeight="0.49438202" order="1" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936507" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24920635" sideWeight="0.49303135" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17135416" sideWeight="0.505618" order="10" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32981676" sideWeight="0.5" order="19" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />

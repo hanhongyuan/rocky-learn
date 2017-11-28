@@ -10,7 +10,7 @@
 2. 下载安装包上传解压
     ````
     cd ~/src
-    tar xvf ./apache-storm-0.9.5.tar.gz -C /export/servers
+    tar xvf ./hadoop-2.6.4.tar.gz -C /export/servers
     cd ~/apps
     ln -s /export/servers/hadoop-2.6.4/ ./hadoop
     ````
