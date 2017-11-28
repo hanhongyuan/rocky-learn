@@ -2,28 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1c2f6514-ea35-4dd0-a045-353903eddbe2" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/hadoop/Hadoop伪分布式配置文件/core-site.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/hadoop/Hadoop伪分布式配置文件/hadoop-env.sh" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/hadoop/Hadoop伪分布式配置文件/mapred-site.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/hadoop/Hadoop伪分布式配置文件/yarn-site.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hadoop-learn/src/main/java/com/rocky/mr/flowsum/FlowBean.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hadoop-learn/src/main/java/com/rocky/mr/flowsum/FlowCountDriver.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hadoop-learn/src/main/java/com/rocky/mr/flowsum/FlowCountMapper.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hadoop-learn/src/main/java/com/rocky/mr/flowsum/FlowCountReducer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hadoop-learn/src/main/java/com/rocky/mr/wordcount/WordCountDriver.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hadoop-learn/src/main/java/com/rocky/mr/wordcount/WordCountMapper.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hadoop-learn/src/main/java/com/rocky/mr/wordcount/WordCountReducer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hadoop-learn/src/main/resources/hadoop-cluster.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hadoop-learn/src/main/resources/hadoop-localhost.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hadoop-learn/src/main/resources/log4j.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/note/hadoop/mapreduce-job并行度.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/note/hadoop/mapreduce简介与MR程序执行流程.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/note/hadoop/mapreduce编程规范.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/note/远程调试.md" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hadoop-learn/src/main/resources/words.log" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hadoop-learn/src/main/java/com/rocky/hdfs/basic/ClientCMDOps.java" afterPath="$PROJECT_DIR$/hadoop-learn/src/main/java/com/rocky/hdfs/basic/ClientCMDOps.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/note/hadoop/Hadoop集群搭建.md" afterPath="$PROJECT_DIR$/note/hadoop/Hadoop集群搭建.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/note/远程调试.md" afterPath="$PROJECT_DIR$/note/远程调试.md" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -62,7 +42,21 @@
     <favorites_list name="rocky-learn" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="远程调试.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/note/远程调试.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="609">
+                <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -93,7 +87,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/data/words.log" />
         <option value="$PROJECT_DIR$/scala-learn/src/main/scala/com/rocky/actor/WordCount.scala" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/java-learn/src/main/java/com/rocky/concurrent/NewCachedThreadPoolDemo.java" />
@@ -144,6 +137,7 @@
         <option value="$PROJECT_DIR$/note/常见命令.md" />
         <option value="$PROJECT_DIR$/data/hadoop/定时采集日志到hdfs脚本.sh" />
         <option value="$PROJECT_DIR$/note/common/crontab定时器.md" />
+        <option value="$PROJECT_DIR$/note/远程调试.md" />
       </list>
     </option>
   </component>
@@ -325,10 +319,10 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="AndroidView" />
-      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -406,6 +400,12 @@
               <item name="rocky-learn" type="462c0819:PsiDirectoryNode" />
               <item name="note" type="462c0819:PsiDirectoryNode" />
               <item name="common" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rocky-learn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rocky-learn" type="462c0819:PsiDirectoryNode" />
+              <item name="note" type="462c0819:PsiDirectoryNode" />
+              <item name="hadoop" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="rocky-learn" type="b2602c69:ProjectViewProjectNode" />
@@ -728,7 +728,8 @@
       <workItem from="1511655873966" duration="29000" />
       <workItem from="1511771400682" duration="2684000" />
       <workItem from="1511830799992" duration="34000" />
-      <workItem from="1511867648396" duration="129000" />
+      <workItem from="1511867648396" duration="1021000" />
+      <workItem from="1511879135836" duration="6000" />
     </task>
     <task id="LOCAL-00001" summary="add java-learn:com.rocky.concurrent">
       <created>1510673101811</created>
@@ -800,7 +801,14 @@
       <option name="project" value="LOCAL" />
       <updated>1511776976860</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="mr">
+      <created>1511867821297</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1511867821297</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -836,7 +844,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="98454000" />
+    <option name="totallyTimeSpent" value="99352000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -849,6 +857,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="-8" width="1861" height="1096" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="17" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298292" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -863,7 +872,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.54647434" sideWeight="0.4968254" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22709605" sideWeight="0.49438202" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22931704" sideWeight="0.49438202" order="1" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936507" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24920635" sideWeight="0.49303135" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -932,7 +941,8 @@
     <MESSAGE value="hdfs学习笔记 add shell ops" />
     <MESSAGE value="jvm learn" />
     <MESSAGE value="crontab 使用" />
-    <option name="LAST_COMMIT_MESSAGE" value="crontab 使用" />
+    <MESSAGE value="mr" />
+    <option name="LAST_COMMIT_MESSAGE" value="mr" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -941,13 +951,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/jvm-learn/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/java-learn/src/main/java/com/rocky/concurrent/NewCachedThreadPoolDemo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
@@ -1018,13 +1021,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hadoop-learn/src/main/resources/words.log">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/hadoop-learn/src/main/resources/words.log" />
     <entry file="file://$PROJECT_DIR$/test_data/.test.txt.crc">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1250,6 +1247,17 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="-1263">
             <caret line="47" column="4" lean-forward="false" selection-start-line="47" selection-start-column="4" selection-end-line="47" selection-end-column="4" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/note/远程调试.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="609">
+            <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+            <folding />
           </first_editor>
           <second_editor />
         </state>
