@@ -1,6 +1,7 @@
-package com.rocky.mr.flowsum;
+package com.rocky.mr.flowsumsortedbysumflow;
 
 import org.apache.hadoop.io.Writable;
+import org.apache.hadoop.io.WritableComparable;
 
 import java.io.DataInput;
 import java.io.DataOutput;
@@ -8,13 +9,13 @@ import java.io.IOException;
 
 /**
  * Created with IntelliJ IDEA.
- * User: Rocky
- * Date: 2017/11/28
- * Time: 17:00
+ * User: rocky
+ * Date: 11/29/17
+ * Time: 9:08 PM
  * To change this template use File | Settings | File Templates.
- * Description:流量对象bean  要实现序列化
+ * Description:
  */
-public class FlowBean implements Writable
+public class FlowBean implements WritableComparable<FlowBean>
 {
     private long upFlow;
     private long downFlow;
@@ -32,9 +33,13 @@ public class FlowBean implements Writable
     }
 
     @Override
-    public String toString() {
-
-        return upFlow + "\t" + downFlow + "\t" + sumFlow;
+    public String toString()
+    {
+        return "FlowBean{" +
+                "upFlow=" + upFlow +
+                ", downFlow=" + downFlow +
+                ", sumFlow=" + sumFlow +
+                '}';
     }
 
     public long getSumFlow()
@@ -80,5 +85,11 @@ public class FlowBean implements Writable
         this.upFlow = in.readLong();
         this.downFlow = in.readLong();
         this.sumFlow = in.readLong();
+    }
+
+
+    public int compareTo(FlowBean flowBean)
+    {
+        return this.sumFlow>flowBean.getSumFlow()?-1:1;	//从大到小, 当前对象和要比较的对象比, 如果当前对象大, 返回-1, 交换他们的位置(自己的理解)
     }
 }

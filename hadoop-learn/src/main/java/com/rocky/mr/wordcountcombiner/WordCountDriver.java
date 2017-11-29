@@ -1,4 +1,4 @@
-package com.rocky.mr.wordcount;
+package com.rocky.mr.wordcountcombiner;
 
 import org.apache.hadoop.conf.Configuration;
 import org.apache.hadoop.fs.Path;
@@ -12,41 +12,44 @@ import java.io.IOException;
 
 /**
  * Created with IntelliJ IDEA.
- * User: Rocky
- * Date: 2017/11/28
- * Time: 12:54
+ * User: rocky
+ * Date: 11/29/17
+ * Time: 3:21 PM
  * To change this template use File | Settings | File Templates.
- * Description:相当于yarn集群的客户端
+ * Description:
  */
 public class WordCountDriver
 {
     public static void main(String [] args) throws IOException, ClassNotFoundException, InterruptedException
     {
         Configuration conf = new Configuration();
-       // conf.addResource(new Path("hadoop-cluster.xml"));
-      //  conf.set("fs.hdfs.impl", "org.apache.hadoop.hdfs.DistributedFileSystem");
+        conf.set("fs.defaultFS", "hdfs://node200:9000");//set distribute filesystem
+        conf.set("mapreduce.framework.name", "yarn");//set resource framework
+        conf.set("yarn.resourcemanager.hostname", "node200");//set RM hostname
+        conf.set("yarn.nodemanager.aux-services", "mapreduce_shuffle");
+
         Job job = Job.getInstance(conf);
 
-        job.setJar("/home/rocky/myself/rocky-learn/hadoop-learn/target/hadoop-learn-1.0-SNAPSHOT.jar");
-
         job.setJarByClass(WordCountDriver.class);
-        //指定map和reduce的类
+        //set input data and out data
+        FileInputFormat.setInputPaths(job,new Path("hdfs://node200:9000/wordcount/input"));
+        FileOutputFormat.setOutputPath(job, new Path("hdfs://node200:9000/wordcount/output"));
+
+        //set mapper and reduce class
         job.setMapperClass(WordCountMapper.class);
         job.setReducerClass(WordCountReducer.class);
-        //指定map输出kv类型
+
+        //set mapper out
         job.setMapOutputKeyClass(Text.class);
         job.setMapOutputValueClass(IntWritable.class);
 
-        //指定最终输出kv类型
+        //set reducer out
         job.setOutputKeyClass(Text.class);
         job.setOutputValueClass(IntWritable.class);
 
-
-        FileInputFormat.setInputPaths(job, new Path("hdfs://node200:9000/wordcount/input"));
-        FileOutputFormat.setOutputPath(job, new Path("hdfs://node200:9000/wordcount/output"));
-
+        job.setCombinerClass(WordCountCombiner.class);
         boolean res = job.waitForCompletion(true);
-
         System.exit(res ? 0 : 1);
+
     }
 }
