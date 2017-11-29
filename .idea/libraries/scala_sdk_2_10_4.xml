@@ -1,16 +1,6 @@
 <component name="libraryTable">
   <library name="scala-sdk-2.10.4">
-    <CLASSES>
-      <root url="jar://C:/Program Files (x86)/scala-2.10.4/scala-2.10.4/lib/scala-actors-migration.jar!/" />
-      <root url="jar://C:/Program Files (x86)/scala-2.10.4/scala-2.10.4/lib/scala-actors.jar!/" />
-      <root url="jar://C:/Program Files (x86)/scala-2.10.4/scala-2.10.4/lib/scala-library.jar!/" />
-      <root url="jar://C:/Program Files (x86)/scala-2.10.4/scala-2.10.4/lib/scala-reflect.jar!/" />
-      <root url="jar://C:/Program Files (x86)/scala-2.10.4/scala-2.10.4/lib/scala-swing.jar!/" />
-      <root url="jar://C:/Program Files (x86)/scala-2.10.4/scala-2.10.4/src/scala-actors-src.jar!/" />
-      <root url="jar://C:/Program Files (x86)/scala-2.10.4/scala-2.10.4/src/scala-library-src.jar!/" />
-      <root url="jar://C:/Program Files (x86)/scala-2.10.4/scala-2.10.4/src/scala-reflect-src.jar!/" />
-      <root url="jar://C:/Program Files (x86)/scala-2.10.4/scala-2.10.4/src/scala-swing-src.jar!/" />
-    </CLASSES>
+    <CLASSES />
     <JAVADOC />
     <SOURCES />
   </library>
