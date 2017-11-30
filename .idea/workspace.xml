@@ -2,30 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1c2f6514-ea35-4dd0-a045-353903eddbe2" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hadoop-learn/src/main/java/com/rocky/mr/flowsumsortedbysumflow/FlowBean.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hadoop-learn/src/main/java/com/rocky/mr/flowsumsortedbysumflow/FlowSumSortedDriver.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hadoop-learn/src/main/java/com/rocky/mr/flowsumsortedbysumflow/FlowSumSortedMapper.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hadoop-learn/src/main/java/com/rocky/mr/flowsumsortedbysumflow/FlowSumSortedReducer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hadoop-learn/src/main/java/com/rocky/mr/join/InfoBean.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hadoop-learn/src/main/java/com/rocky/mr/join/JoinDriver.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hadoop-learn/src/main/java/com/rocky/mr/join/JoinMapper.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hadoop-learn/src/main/java/com/rocky/mr/join/JoinReducer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hadoop-learn/src/main/java/com/rocky/mr/wordcountcombiner/WordCountCombiner.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hadoop-learn/src/main/java/com/rocky/mr/wordcountcombiner/WordCountDriver.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hadoop-learn/src/main/java/com/rocky/mr/wordcountcombiner/WordCountMapper.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hadoop-learn/src/main/java/com/rocky/mr/wordcountcombiner/WordCountReducer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hadoop-learn/src/main/resources/hdfs-site.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hadoop-learn/src/main/resources/mapred-site.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hadoop-learn/src/main/resources/yarn-site.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/note/hadoop/mapreduce_shuffle详解.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/note/hadoop/mapreduce_yarn集群运行流程.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/note/hadoop/mapreduce程序本地集群运行配置.md" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/hadoop-learn/src/main/resources/hadoop-cluster.xml" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/hadoop-learn/src/main/resources/hadoop-localhost.xml" afterPath="$PROJECT_DIR$/hadoop-learn/src/main/resources/core-site.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/note/image/job执行流程图解.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/note/image/mr_shufle与排序图解.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/note/hadoop/mapreduce_shuffle与排序详解.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/note/hadoop/mapreduce作业执行流程.md" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/note/hadoop/mapreduce_shuffle详解.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/note/hadoop/mapreduce_yarn集群运行流程.md" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hadoop-learn/src/main/java/com/rocky/mr/flowsum/FlowBean.java" afterPath="$PROJECT_DIR$/hadoop-learn/src/main/java/com/rocky/mr/flowsum/FlowBean.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hadoop-learn/src/main/java/com/rocky/mr/flowsum/FlowCountDriver.java" afterPath="$PROJECT_DIR$/hadoop-learn/src/main/java/com/rocky/mr/flowsum/FlowCountDriver.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hadoop-learn/src/main/java/com/rocky/mr/wordcount/WordCountDriver.java" afterPath="$PROJECT_DIR$/hadoop-learn/src/main/java/com/rocky/mr/wordcount/WordCountDriver.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -65,154 +48,15 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="WordCountDriver.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/hadoop-learn/src/main/java/com/rocky/mr/wordcountcombiner/WordCountDriver.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="217">
-              <caret line="26" column="32" lean-forward="false" selection-start-line="25" selection-start-column="7" selection-end-line="28" selection-end-column="71" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="mapreduce程序本地集群运行配置.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/note/hadoop/mapreduce程序本地集群运行配置.md">
+      <file leaf-file-name="mapreduce_shuffle与排序详解.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/note/hadoop/mapreduce_shuffle与排序详解.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="29">
-                <caret line="1" column="4" lean-forward="false" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
+              <first_editor relative-caret-position="-574">
+                <caret line="1" column="31" lean-forward="false" selection-start-line="1" selection-start-column="31" selection-end-line="1" selection-end-column="31" />
                 <folding />
               </first_editor>
               <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="mapreduce_yarn集群运行流程.md" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/note/hadoop/mapreduce_yarn集群运行流程.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="-115">
-                <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-                <folding />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="WordCountReducer.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/hadoop-learn/src/main/java/com/rocky/mr/wordcountcombiner/WordCountReducer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="197">
-              <caret line="23" column="9" lean-forward="false" selection-start-line="21" selection-start-column="8" selection-end-line="26" selection-end-column="49" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="WordCountDriver.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/hadoop-learn/src/main/java/com/rocky/mr/wordcount/WordCountDriver.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="203">
-              <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="JoinMapper.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/hadoop-learn/src/main/java/com/rocky/mr/join/JoinMapper.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="35" column="64" lean-forward="false" selection-start-line="35" selection-start-column="64" selection-end-line="35" selection-end-column="64" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="JoinReducer.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/hadoop-learn/src/main/java/com/rocky/mr/join/JoinReducer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1288">
-              <caret line="53" column="42" lean-forward="false" selection-start-line="53" selection-start-column="42" selection-end-line="53" selection-end-column="42" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#795#805#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="JoinDriver.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/hadoop-learn/src/main/java/com/rocky/mr/join/JoinDriver.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="873">
-              <caret line="44" column="0" lean-forward="false" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="InfoBean.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/hadoop-learn/src/main/java/com/rocky/mr/join/InfoBean.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1549">
-              <caret line="82" column="5" lean-forward="false" selection-start-line="82" selection-start-column="5" selection-end-line="82" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#2063#2064#0" expanded="true" />
-                <element signature="e#2105#2106#0" expanded="true" />
-                <element signature="e#2135#2136#0" expanded="true" />
-                <element signature="e#2171#2172#0" expanded="true" />
-                <element signature="e#2199#2200#0" expanded="true" />
-                <element signature="e#2245#2246#0" expanded="true" />
-                <element signature="e#2279#2280#0" expanded="true" />
-                <element signature="e#2320#2321#0" expanded="true" />
-                <element signature="e#2353#2354#0" expanded="true" />
-                <element signature="e#2409#2410#0" expanded="true" />
-                <element signature="e#2453#2454#0" expanded="true" />
-                <element signature="e#2489#2490#0" expanded="true" />
-                <element signature="e#2517#2518#0" expanded="true" />
-                <element signature="e#2563#2564#0" expanded="true" />
-                <element signature="e#2597#2598#0" expanded="true" />
-                <element signature="e#2631#2632#0" expanded="true" />
-                <element signature="e#2657#2658#0" expanded="true" />
-                <element signature="e#2699#2700#0" expanded="true" />
-                <element signature="e#2729#2730#0" expanded="true" />
-                <element signature="e#2764#2765#0" expanded="true" />
-                <element signature="e#2791#2792#0" expanded="true" />
-                <element signature="e#2835#2836#0" expanded="true" />
-                <element signature="e#2867#2868#0" expanded="true" />
-                <element signature="e#2902#2903#0" expanded="true" />
-                <element signature="e#2929#2930#0" expanded="true" />
-                <element signature="e#2973#2974#0" expanded="true" />
-                <element signature="e#3005#3006#0" expanded="true" />
-                <element signature="e#3042#3043#0" expanded="true" />
-                <element signature="e#3071#3072#0" expanded="true" />
-                <element signature="e#3119#3120#0" expanded="true" />
-                <element signature="e#3155#3156#0" expanded="true" />
-                <element signature="e#3190#3191#0" expanded="true" />
-                <element signature="e#3217#3218#0" expanded="true" />
-                <element signature="e#3261#3262#0" expanded="true" />
-                <element signature="e#3293#3294#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="core-site.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/hadoop-learn/src/main/resources/core-site.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="174">
-              <caret line="6" column="15" lean-forward="false" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="15" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -248,7 +92,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/java-learn/src/main/java/com/rocky/concurrent/MyThreadPool.java" />
         <option value="$PROJECT_DIR$/note/JVM学习笔记.md" />
         <option value="$PROJECT_DIR$/hadoop-learn/src/main/java/com/rocky/hdfs/basic/ClientOps.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
@@ -299,6 +142,7 @@
         <option value="$PROJECT_DIR$/hadoop-learn/src/main/java/com/rocky/mr/join/JoinMapper.java" />
         <option value="$PROJECT_DIR$/hadoop-learn/src/main/java/com/rocky/mr/join/JoinReducer.java" />
         <option value="$PROJECT_DIR$/note/hadoop/mapreduce_yarn集群运行流程.md" />
+        <option value="$PROJECT_DIR$/note/hadoop/mapreduce_shuffle与排序详解.md" />
       </list>
     </option>
   </component>
@@ -503,95 +347,80 @@
             <path>
               <item name="rocky-learn" type="b2602c69:ProjectViewProjectNode" />
               <item name="rocky-learn" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
+              <item name="hadoop-learn" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="rocky-learn" type="b2602c69:ProjectViewProjectNode" />
               <item name="rocky-learn" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
+              <item name="hadoop-learn" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rocky-learn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rocky-learn" type="462c0819:PsiDirectoryNode" />
+              <item name="hadoop-learn" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rocky-learn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rocky-learn" type="462c0819:PsiDirectoryNode" />
+              <item name="hadoop-learn" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rocky-learn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rocky-learn" type="462c0819:PsiDirectoryNode" />
+              <item name="hadoop-learn" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="rocky" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rocky-learn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rocky-learn" type="462c0819:PsiDirectoryNode" />
+              <item name="hadoop-learn" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="rocky" type="462c0819:PsiDirectoryNode" />
+              <item name="mr" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rocky-learn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rocky-learn" type="462c0819:PsiDirectoryNode" />
+              <item name="hadoop-learn" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="rocky" type="462c0819:PsiDirectoryNode" />
+              <item name="mr" type="462c0819:PsiDirectoryNode" />
+              <item name="flowsum" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rocky-learn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rocky-learn" type="462c0819:PsiDirectoryNode" />
+              <item name="hadoop-learn" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="rocky" type="462c0819:PsiDirectoryNode" />
+              <item name="mr" type="462c0819:PsiDirectoryNode" />
+              <item name="flowsumbyprovince" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rocky-learn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rocky-learn" type="462c0819:PsiDirectoryNode" />
+              <item name="note" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rocky-learn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rocky-learn" type="462c0819:PsiDirectoryNode" />
+              <item name="note" type="462c0819:PsiDirectoryNode" />
               <item name="hadoop" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="rocky-learn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="rocky-learn" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
-              <item name="hadoop" type="462c0819:PsiDirectoryNode" />
-              <item name="hadoop完全分布式配置文件" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="rocky-learn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="rocky-learn" type="462c0819:PsiDirectoryNode" />
-              <item name="hadoop-learn" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="rocky-learn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="rocky-learn" type="462c0819:PsiDirectoryNode" />
-              <item name="hadoop-learn" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="rocky-learn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="rocky-learn" type="462c0819:PsiDirectoryNode" />
-              <item name="hadoop-learn" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="rocky-learn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="rocky-learn" type="462c0819:PsiDirectoryNode" />
-              <item name="hadoop-learn" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="rocky-learn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="rocky-learn" type="462c0819:PsiDirectoryNode" />
-              <item name="hadoop-learn" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="rocky" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="rocky-learn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="rocky-learn" type="462c0819:PsiDirectoryNode" />
-              <item name="hadoop-learn" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="rocky" type="462c0819:PsiDirectoryNode" />
-              <item name="mr" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="rocky-learn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="rocky-learn" type="462c0819:PsiDirectoryNode" />
-              <item name="hadoop-learn" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="rocky" type="462c0819:PsiDirectoryNode" />
-              <item name="mr" type="462c0819:PsiDirectoryNode" />
-              <item name="join" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="rocky-learn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="rocky-learn" type="462c0819:PsiDirectoryNode" />
-              <item name="hadoop-learn" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="rocky" type="462c0819:PsiDirectoryNode" />
-              <item name="mr" type="462c0819:PsiDirectoryNode" />
-              <item name="wordcount" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="rocky-learn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="rocky-learn" type="462c0819:PsiDirectoryNode" />
-              <item name="hadoop-learn" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -610,7 +439,7 @@
     <property name="Downloaded.Files.Path.Enabled" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
-    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///home/rocky/myself/rocky-learn/hadoop-learn/src/main/java/com/rocky/mr/flowsum/FlowCountDriver.java&#10;b&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_144/jre/lib/ext/jfxrt.jar!/com/sun/javafx/scene/control/skin/caspian/images/backspace-icon.png" />
+    <property name="SearchEverywhereHistoryKey" value="spill&#9;FILE&#9;jar:///mnt/hgfs/share/repository/org/apache/hadoop/hadoop-mapreduce-client-core/2.6.4/hadoop-mapreduce-client-core-2.6.4-sources.jar!/org/apache/hadoop/mapred/SpillRecord.java&#10;partitioner&#9;PSI&#9;JAVA://org.apache.hadoop.mapred.JobConf#getPartitionerClass&#10;outputco&#9;PSI&#9;JAVA://org.apache.hadoop.mapred.OutputCollector&#10;mapper&#9;PSI&#9;JAVA://org.apache.hadoop.mapred.MapRunner#mapper&#10;textinputfor&#9;PSI&#9;JAVA://org.apache.hadoop.mapred.TextInputFormat&#10;textoutput&#9;PSI&#9;JAVA://org.apache.hadoop.mapred.TextOutputFormat&#10;b&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_144/jre/lib/ext/jfxrt.jar!/com/sun/javafx/scene/control/skin/caspian/images/backspace-icon.png" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
@@ -856,7 +685,7 @@
     <option name="remove_strategy" value="false" />
   </component>
   <component name="StructureViewFactory">
-    <option name="ACTIVE_ACTIONS" value=",VISIBILITY_SORTER,ALPHA_COMPARATOR,SHOW_INTERFACES,SHOW_PROPERTIES,SHOW_LAMBDA" />
+    <option name="ACTIVE_ACTIONS" value=",VISIBILITY_SORTER,ALPHA_COMPARATOR,SHOW_INTERFACES,SHOW_PROPERTIES,SHOW_LAMBDA,SHOW_ANONYMOUS,SHOW_INHERITED" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -916,7 +745,7 @@
       <workItem from="1511948428163" duration="240000" />
       <workItem from="1511948691941" duration="686000" />
       <workItem from="1511959174449" duration="5295000" />
-      <workItem from="1511940008366" duration="10100000" />
+      <workItem from="1511940008366" duration="14296000" />
     </task>
     <task id="LOCAL-00001" summary="add java-learn:com.rocky.concurrent">
       <created>1510673101811</created>
@@ -1002,7 +831,14 @@
       <option name="project" value="LOCAL" />
       <updated>1511916640006</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="mr">
+      <created>1511971194208</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1511971194208</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1038,7 +874,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="122593000" />
+    <option name="totallyTimeSpent" value="126789000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1050,7 +886,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="28" width="1551" height="905" extended-state="6" />
+    <frame x="0" y="28" width="1920" height="1018" extended-state="6" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="17" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298292" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1060,15 +896,15 @@
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5442177" sideWeight="0.5031746" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13772455" sideWeight="0.48407644" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28843537" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.11057692" sideWeight="0.48407644" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.54647434" sideWeight="0.4968254" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20691949" sideWeight="0.49438202" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22329059" sideWeight="0.49438202" order="1" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936507" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24920635" sideWeight="0.49303135" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24883567" sideWeight="0.49303135" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
@@ -1134,9 +970,9 @@
     <MESSAGE value="hdfs学习笔记 add shell ops" />
     <MESSAGE value="jvm learn" />
     <MESSAGE value="crontab 使用" />
-    <MESSAGE value="mr" />
     <MESSAGE value="ProvinceFlowCount" />
-    <option name="LAST_COMMIT_MESSAGE" value="ProvinceFlowCount" />
+    <MESSAGE value="mr" />
+    <option name="LAST_COMMIT_MESSAGE" value="mr" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1145,34 +981,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/note/hadoop/namenode元数据管理机制.md" />
-    <entry file="file://$PROJECT_DIR$/note/hadoop/hdfs集群-动态添加datanode.md" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-common/2.6.4/hadoop-common-2.6.4.jar!/org/apache/hadoop/fs/FileSystem.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="9048">
-          <caret line="390" column="30" lean-forward="false" selection-start-line="390" selection-start-column="30" selection-end-line="390" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-common/2.6.4/hadoop-common-2.6.4-sources.jar!/org/apache/hadoop/fs/RemoteIterator.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-common/2.6.4/hadoop-common-2.6.4-sources.jar!/org/apache/hadoop/fs/FileSystem.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-hdfs/2.6.4/hadoop-hdfs-2.6.4-sources.jar!/org/apache/hadoop/hdfs/DistributedFileSystem.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-common/2.6.4/hadoop-common-2.6.4-sources.jar!/org/apache/hadoop/io/IOUtils.java" />
-    <entry file="file://$PROJECT_DIR$/sql-learn/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/note/spark/spark简介.md" />
-    <entry file="file://$PROJECT_DIR$/hadoop-learn/src/main/java/com/rocky/hadoop/rpc/PublishServiceUtil.kt" />
-    <entry file="file://$PROJECT_DIR$/hadoop-learn/src/main/java/com/rocky/hadoop/rpc/demo/PublishServiceUtil.java" />
-    <entry file="file://$PROJECT_DIR$/hadoop-learn/src/main/java/com/rocky/hadoop/rpc/demo/Client.java" />
-    <entry file="file://$PROJECT_DIR$/hadoop-learn/src/main/java/com/rocky/hadoop/rpc/demo/ClientServiceProtocol.java" />
-    <entry file="file://$PROJECT_DIR$/hadoop-learn/src/main/java/com/rocky/hadoop/rpc/login/IUserLoginService.java" />
-    <entry file="file://$PROJECT_DIR$/hadoop-learn/src/main/java/com/rocky/hadoop/rpc/login/PublishServiceUtil.java" />
-    <entry file="file://$PROJECT_DIR$/hadoop-learn/src/main/java/com/rocky/hadoop/rpc/login/UserLoginAction.java" />
     <entry file="file://$PROJECT_DIR$/hadoop-learn/src/main/java/com/rocky/hadoop/rpc/login/UserLoginServiceImpl.java" />
     <entry file="file://$PROJECT_DIR$/hadoop-learn/src/main/java/com/rocky/hadoop/rpc/demo/MyService.java" />
     <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-common/2.6.4/hadoop-common-2.6.4.jar!/org/apache/hadoop/conf/Configuration.class">
@@ -1204,17 +1012,13 @@
     <entry file="file://$PROJECT_DIR$/data/hadoop/定时采集日志到hdfs脚本.sh" />
     <entry file="file://$PROJECT_DIR$/note/common/crontab定时器.md" />
     <entry file="file://$PROJECT_DIR$/hadoop-learn/src/main/java/com/rocky/mr/flowsum/test.java" />
-    <entry file="file://$PROJECT_DIR$/hadoop-learn/src/main/java/com/rocky/mr/flowsumbyprovince/ProvincePartitioner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="812">
-          <caret line="32" column="50" lean-forward="false" selection-start-line="32" selection-start-column="50" selection-end-line="32" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/hadoop-learn/src/main/java/com/rocky/mr/flowsumbyprovince/ProvinceFlowReducer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="667">
           <caret line="28" column="9" lean-forward="false" selection-start-line="28" selection-start-column="9" selection-end-line="28" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1338,19 +1142,8 @@
         <state relative-caret-position="217">
           <caret line="26" column="32" lean-forward="false" selection-start-line="25" selection-start-column="7" selection-end-line="28" selection-end-column="71" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/note/hadoop/mapreduce程序本地集群运行配置.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="29">
-            <caret line="1" column="4" lean-forward="false" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
-            <folding />
-          </first_editor>
-          <second_editor />
         </state>
       </provider>
     </entry>
@@ -1465,8 +1258,178 @@
     <entry file="file://$PROJECT_DIR$/note/hadoop/mapreduce_yarn集群运行流程.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="-115">
+          <first_editor relative-caret-position="2059">
+            <caret line="43" column="0" lean-forward="true" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/note/hadoop/mapreduce程序本地集群运行配置.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="29">
+            <caret line="1" column="4" lean-forward="false" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/note/hadoop/mapreduce简介与MR程序执行流程.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="-373">
+            <caret line="12" column="17" lean-forward="false" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/note/hadoop/hdfs集群-动态添加datanode.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
             <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/note/hadoop/mapreduce-job并行度.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="-2098">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/note/hadoop/mapreduce_shuffle详解.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-mapreduce-client-core/2.6.4/hadoop-mapreduce-client-core-2.6.4-sources.jar!/org/apache/hadoop/mapred/TextOutputFormat.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="42" column="0" lean-forward="true" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-mapreduce-client-core/2.6.4/hadoop-mapreduce-client-core-2.6.4-sources.jar!/org/apache/hadoop/mapred/RecordReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="164">
+          <caret line="40" column="17" lean-forward="false" selection-start-line="40" selection-start-column="17" selection-end-line="40" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-mapreduce-client-core/2.6.4/hadoop-mapreduce-client-core-2.6.4-sources.jar!/org/apache/hadoop/mapred/TextInputFormat.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="66" column="26" lean-forward="true" selection-start-line="66" selection-start-column="26" selection-end-line="66" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-mapreduce-client-core/2.6.4/hadoop-mapreduce-client-core-2.6.4-sources.jar!/org/apache/hadoop/mapred/LineRecordReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-577">
+          <caret line="235" column="32" lean-forward="false" selection-start-line="235" selection-start-column="30" selection-end-line="235" selection-end-column="34" />
+          <folding>
+            <element signature="e#6652#6653#0" expanded="false" />
+            <element signature="e#6679#6680#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-mapreduce-client-core/2.6.4/hadoop-mapreduce-client-core-2.6.4-sources.jar!/org/apache/hadoop/mapred/MapRunner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="64" column="35" lean-forward="false" selection-start-line="64" selection-start-column="35" selection-end-line="64" selection-end-column="35" />
+          <folding>
+            <element signature="e#2343#2344#0" expanded="false" />
+            <element signature="e#2366#2367#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-mapreduce-client-core/2.6.4/hadoop-mapreduce-client-core-2.6.4-sources.jar!/org/apache/hadoop/mapred/OutputCollector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="235">
+          <caret line="44" column="11" lean-forward="false" selection-start-line="44" selection-start-column="7" selection-end-line="44" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hadoop-learn/src/main/java/com/rocky/mr/flowsum/FlowCountMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="164">
+          <caret line="16" column="40" lean-forward="false" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-mapreduce-client-core/2.6.4/hadoop-mapreduce-client-core-2.6.4-sources.jar!/org/apache/hadoop/mapred/MapTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="164">
+          <caret line="685" column="52" lean-forward="true" selection-start-line="685" selection-start-column="46" selection-end-line="685" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-mapreduce-client-core/2.6.4/hadoop-mapreduce-client-core-2.6.4-sources.jar!/org/apache/hadoop/mapred/JobConf.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="164">
+          <caret line="1147" column="57" lean-forward="false" selection-start-line="1147" selection-start-column="38" selection-end-line="1147" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hadoop-learn/src/main/java/com/rocky/mr/flowsumbyprovince/ProvincePartitioner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="146">
+          <caret line="16" column="49" lean-forward="false" selection-start-line="16" selection-start-column="49" selection-end-line="16" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-mapreduce-client-core/2.6.4/hadoop-mapreduce-client-core-2.6.4-sources.jar!/org/apache/hadoop/mapreduce/Partitioner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="53" column="5" lean-forward="true" selection-start-line="53" selection-start-column="5" selection-end-line="53" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-mapreduce-client-core/2.6.4/hadoop-mapreduce-client-core-2.6.4-sources.jar!/org/apache/hadoop/mapred/SpillRecord.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="129" column="18" lean-forward="false" selection-start-line="129" selection-start-column="14" selection-end-line="129" selection-end-column="25" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/note/hadoop/mapreduce_shuffle与排序详解.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="-574">
+            <caret line="1" column="31" lean-forward="false" selection-start-line="1" selection-start-column="31" selection-end-line="1" selection-end-column="31" />
             <folding />
           </first_editor>
           <second_editor />
